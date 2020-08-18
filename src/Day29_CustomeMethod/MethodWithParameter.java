@@ -3,7 +3,7 @@ package Day29_CustomeMethod;
 
 import java.util.Scanner;
 
-public  class MethodWithParameter {
+public  class  MethodWithParameter {
 
     public static void main(String[] args) {
         printHello(5);

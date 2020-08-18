@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/https:/github.com/Tsolmonp/Java2020.git" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Day37_ArrayList" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/Day37_ArrayList/https:/github.com/Tsolmonp/Day37_ArrayList.git" vcs="Git" />
   </component>
