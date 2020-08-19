@@ -2,7 +2,6 @@ package Day42_static;
 
 public class CapitalOne {
     public static void main(String[] args) {
-
         Tester[] testers = { new Tester(), new Tester(), new Tester() };
         testers[0].setInfo("Aalia", 'F', 15111L,"Lead Tester",180000);
         testers[1].setInfo("Naz",'F',15222L,"Tester", 180000);
@@ -13,15 +12,21 @@ public class CapitalOne {
         developers[1].setInfo("roza", 'F', 3222L, "Dev", 550000);
         developers[2].setInfo("burak", 'M', 43333L, "Dev", 650000);
         developers[3].setInfo("Virginia", 'F', 76543, "Dev", 130000);
-        developers[4].setInfo("Akbar", 'M', 0005L, "Dev", 120000);
+        developers[4].setInfo("Akbar", 'M', 5435L, "Dev", 120000);
+
 
 
         ScrumTeam team1 = new ScrumTeam();
+
         team1.setInfo("Ramazan", "Hamit", "Ismail");
+
+        // team1.testers.addAll(Arrays.asList(testers));
         team1.addTester(testers);
+
         team1.addDeveloper(developers);
 
         System.out.println(team1);
+
         System.out.println("================================");
         for(Tester each : team1.testers ){// each: every single testers in the scrum team
             System.out.println(each.name +" : $"+each.salary);
@@ -34,6 +39,7 @@ public class CapitalOne {
         }
 
         System.out.println("=======================================");
+
         team1.removeTester(15333);
         team1.removeDeveloper(2111);
         team1.removeDeveloper(43333);
@@ -50,9 +56,10 @@ public class CapitalOne {
 
 
         ScrumTeam[] scrumTeams = {team1, new ScrumTeam(), new ScrumTeam()};
+
         /*
         print all developers and testers from scrum team
         find the maximum salary
-         */
+*/
     }
 }

@@ -20,6 +20,7 @@ public class Developer {
         this.salary=salary;
         this.gender = gender;
     }
+
     public void coding(){
         System.out.println(name+" is coding");
     }

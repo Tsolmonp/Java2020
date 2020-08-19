@@ -1,18 +1,22 @@
 package Day43_Static;
 
 class A{
-    static int a = 200;
+    static int  a = 200;
 }
 
 public class CybertekStudent {
-    //for the advantages of static
+    // for the advantages of static
 
-    public static void main(String[] args) {
+    String studentName;
+    int age;
+    char gender;
+    static  String schoolName = "Cybertek School";
 
-        String studentName;
-        int age;
-        char gender;
-
-        static String schoolName = "Cybertek School";
+    public  void getInfo(){
+        System.out.println("Name: "+studentName);
     }
+    public static void printSchoolName(){
+        System.out.println("SChool Name: "+schoolName);
+    }
+
 }

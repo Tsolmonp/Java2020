@@ -64,7 +64,7 @@ public class ScrumTeam {
 
 
     public String toString(){
-        return testers.size()+" testers, "+developers.size()+" developers, PO: "+PO+", BA: "+BA+", SM: "+SM;
+        return testers.size()+" testers, "+ developers.size()+" developers, PO: "+PO+", BA: "+BA+", SM: "+SM;
     }
 
     /*
