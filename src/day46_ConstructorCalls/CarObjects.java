@@ -16,6 +16,7 @@ public class CarObjects {
         System.out.println(new Car("Jeep","Compass","Black",2010));
 
         System.out.println("======================================");
+        System.out.println(  new Car("Honda", "Accord", "Red", 2019, 25000) );
 
 
     }
