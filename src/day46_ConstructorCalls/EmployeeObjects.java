@@ -21,7 +21,7 @@ public class EmployeeObjects {
         System.out.println(employee3);
 
         System.out.println("===================================");
-        Employee employee4= new Employee("Alex","SDET",123456,135_000.5);
+        Employee employee4= new Employee("Alex","SDET",123456,68000);
         System.out.println(employee4);
 
         System.out.println("==============================");

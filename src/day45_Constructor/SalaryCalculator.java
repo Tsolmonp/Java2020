@@ -43,7 +43,8 @@ public class SalaryCalculator {
 
 
     public String toString(){
-        return "Salary: "+salary()+"\nState Tax: "+stateTax()+"\nFederal Tax: "+federalTax()+"\nSalary After Tax: "+salaryAfterTax();
+        return "Salary: "+salary()+"\nState Tax: "+stateTax()+"\nFederal Tax: "
+                +federalTax()+"\nSalary After Tax: "+salaryAfterTax();
 
     }
 }
