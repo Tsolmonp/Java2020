@@ -17,7 +17,8 @@ public class Set_Method {
         list1.add(10);//6
         list1.add(10);//7
 
-        list1.set(list1.size()-1,0);
+        list1.set(list1.size()-3,0);
+        list1.set(list1.size()-0,8);
         System.out.println(list1);
 
         System.out.println("==============================");
