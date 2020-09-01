@@ -1,6 +1,7 @@
 package Day43_Static;
 
 import Day42_static.Tester;
+
 public class staticBlock2 {
 
     static int a;
