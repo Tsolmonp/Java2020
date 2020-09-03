@@ -11,6 +11,10 @@ public class ShapeObject {
 
         System.out.println(circle.calculatePerimeter());
         System.out.println(rectangle.calculatePerimeter());
+
+        Square square = new Square(2);
+        System.out.println(square.calculateArea());
+        System.out.println(square.calculatePerimeter());
     }
 
 }
