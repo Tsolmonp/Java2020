@@ -1,7 +1,10 @@
 package day48_Inheritance;
 
 class A {
-    static int a = 10;
+    public static  int num1 = 100;
+    private static int num2 = 200;
+    protected static int num3 = 300;
+    static int num4 = 10;
 
 }
 class B extends A{
@@ -20,4 +23,6 @@ class C extends B{
 }
 
 public class Inheritance1 {
+
+
 }

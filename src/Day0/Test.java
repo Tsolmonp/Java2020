@@ -1,15 +1,25 @@
 package Day0;
 
 
-
-abstract class Test {
-    String type = "4M";
-    int maxSpeed = 100;
-    Test(String type, int maxSpeed){
-    this.type = type;
-    this.maxSpeed=maxSpeed;
+ class Test {
+    static int count;
+    public Test(){
+    count++;
+    }
+    public Test(int i){
+        count += i;
+    }
+    public void Test(String s){
+       count += s.length();
     }
 }
+
+
+    
+
+
+
+
 
 
 
