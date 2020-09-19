@@ -4,6 +4,10 @@ public class Samsung extends  Phone {
 
     public Samsung(String brand, String model, double price, String size) {
         super(brand, model, price, size);
+        if(price <= 0 || price > 1200){
+            throw new RuntimeException("Invalid Price: "+price);
+
+        }
     }
 
     @Override
