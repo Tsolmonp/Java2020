@@ -1,0 +1,7 @@
+
+B
+java:S1068"%Remove this unused "q" private field.(±Ðáš8„ÃÇ¨å.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åò‡…
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©Ù•€
+j
+java:S1104"MMake s a static final constant or non-public and provide accessors if needed.(±¸¡í8ñÙÈ¨å.

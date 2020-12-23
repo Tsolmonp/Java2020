@@ -1,0 +1,27 @@
+
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(«¤Û‹øÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Çµí‘
+S	java:S106("9Replace this use of System.out or System.err by a logger.(î«˜–ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(å²¬úÿÿÿÿ
+?
+java:S1659")Declare "garageSpots" on a separate line.(®¹÷½
+;
+java:S1659	"%Declare "smoking" on a separate line.(Ğ÷—ß
+:
+java:S1659	"$Declare "garage" on a separate line.(Ğ÷—ß
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øöÂæûÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(ÿì…
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(²°Äî
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Ğ®îßøÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(·ñ™Æûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÚ’·
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š»±„
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÿ²ÎÙ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(•ºà¨
+?
+java:S1659")Declare "schoolScore" on a separate line.(õÜÚ
+H
+java:S1659"2Declare "highwayAccessibility" on a separate line.(õÜÚ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ÚÜ÷
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ¼­ûøÿÿÿÿ

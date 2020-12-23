@@ -1,0 +1,30 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å¼¨Ôÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø…ÿ¿
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®İÌĞıÿÿÿÿ
+N
+java:S1854"8Remove this useless assignment to local variable "str2".(£œö¨
+=
+java:S1481'"'Remove this unused "t1" local variable.(ƒ‰­¯
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(¤Ø»°øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€âÔû
+6
+java:S2129" Remove this "String" constructor(£œö¨
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(»¹°
+S	java:S106"9Replace this use of System.out or System.err by a logger.(º–ç“ûÿÿÿÿ
+L
+java:S1854'"6Remove this useless assignment to local variable "t1".(ƒ‰­¯
+@
+java:S2201"*The return value of "concat" must be used.(¹À¥Ó
+?
+java:S1481")Remove this unused "str2" local variable.(£œö¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶ıúõşÿÿÿÿ
+Q
+java:S1854#"6Remove this useless assignment to local variable "s3".(ó”ºúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‹ñõ’
+B
+java:S1481#"'Remove this unused "s3" local variable.(ó”ºúÿÿÿÿ
+d
+java:S1192"IDefine a constant instead of duplicating this literal "Cybertek" 3 times.(ñ˜ÿÿÿÿÿ
+u
+java:S1149'"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ƒ‰­¯

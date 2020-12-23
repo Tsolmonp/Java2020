@@ -1,0 +1,48 @@
+
+A
+java:S1481!"+Remove this unused "level2" local variable.(ÅÅõ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”—¤şÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€âÔû
+U
+java:S1854":Remove this useless assignment to local variable "month3".(Èëé’şÿÿÿÿ
+F
+java:S1481"+Remove this unused "month1" local variable.(€ø˜ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²İ¨¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ô‡›¶
+O
+java:S1854":Remove this useless assignment to local variable "month2".(·Ş’>
+U
+java:S1854"":Remove this useless assignment to local variable "level3".(İ­¡£øÿÿÿÿ
+F
+java:S1481"+Remove this unused "month3" local variable.(Èëé’şÿÿÿÿ
+f	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(‚ø€ôúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(øßš
+f	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ËÖÍ°şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š·‘¡ıÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "day3".( •Íÿüÿÿÿÿ
+L
+java:S1854"7Remove this useless assignment to local variable "day".(­Ï§~
+@
+java:S1481"+Remove this unused "month2" local variable.(·Ş’>
+F
+java:S1481 "+Remove this unused "level1" local variable.(­ı“Óüÿÿÿÿ
+F
+java:S1481""+Remove this unused "level3" local variable.(İ­¡£øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›çµˆüÿÿÿÿ
+P
+java:S1854!":Remove this useless assignment to local variable "level2".(ÅÅõ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Š¸Ö
+U
+java:S1854":Remove this useless assignment to local variable "month1".(€ø˜ÿÿÿÿÿ
+U
+java:S1854 ":Remove this useless assignment to local variable "level1".(­ı“Óüÿÿÿÿ
+?
+java:S1481")Remove this unused "day2" local variable.(”¬Ô
+N
+java:S1854"8Remove this useless assignment to local variable "day2".(”¬Ô
+D
+java:S1481")Remove this unused "day3" local variable.( •Íÿüÿÿÿÿ
+=
+java:S1481"(Remove this unused "day" local variable.(­Ï§~
+a	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(©–‡„

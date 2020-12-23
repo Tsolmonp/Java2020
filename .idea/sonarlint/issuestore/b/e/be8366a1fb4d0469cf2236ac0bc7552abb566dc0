@@ -1,0 +1,30 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Š ¦
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÖòÔÉùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ïø÷¿üÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ãŒ¦ıÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Æ¶·ä
+L
+java:S1854"6Remove this useless assignment to local variable "r1".(‰Ùä£
+Q
+java:S1854"6Remove this useless assignment to local variable "s1".(š—îúÿÿÿÿ
+L
+java:S1854*"6Remove this useless assignment to local variable "a2".(ôıÁƒ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(±«ãºúÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Åá—•şÿÿÿÿ
+Q	java:S1253"<This block of commented-out lines of code should be removed.(‚¼
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Åá—•şÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ÍˆëÄ
+M
+java:S1854	"8Remove this useless assignment to local variable "str1".(ÔëÛ;
+;
+java:S2129" Remove this "String" constructor(š—îúÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "c1".(«ä„®şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ
+5
+java:S2129" Remove this "String" constructor(®Ôï,
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€âÔû
+L
+java:S1854%"6Remove this useless assignment to local variable "a1".( ‹í¥
