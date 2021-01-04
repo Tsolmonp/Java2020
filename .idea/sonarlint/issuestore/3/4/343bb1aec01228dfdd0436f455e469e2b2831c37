@@ -1,0 +1,17 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñğ…İıÿÿÿÿ
+“
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡©ö’øÿÿÿÿ8ŒÆïé.
+‘
+java:S1319¤"sThe type of the "allPosts" object should be an interface such as "List" rather than the implementation "ArrayList".(Ã…¹Ø8ŒÆïé.
+u	java:S135C"YReduce the total number of break and continue statements in this loop to use at most one.(Ù¢¤ë8ŒÆïé.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(†öÔäüÿÿÿÿ8ŒÆïé.
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(úş¤ùÿÿÿÿ8ŒÆïé.
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(£¡œ—ÿÿÿÿÿ8ŒÆïé.
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(”’è×8ŒÆïé.
+U	java:S106k"9Replace this use of System.out or System.err by a logger.(ö±÷8ŒÆïé.
+U	java:S106m"9Replace this use of System.out or System.err by a logger.(„Ó—ÿ8ŒÆïé.
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(‡À¿Áÿÿÿÿÿ8ŒÆïé.
+[	java:S106ª"9Replace this use of System.out or System.err by a logger.(°£‘üÿÿÿÿ8ŒÆïé.
+[	java:S106¶"9Replace this use of System.out or System.err by a logger.(ç«•Àüÿÿÿÿ8ŒÆïé.
+V	java:S106¸"9Replace this use of System.out or System.err by a logger.(‹š¼8ŒÆïé.

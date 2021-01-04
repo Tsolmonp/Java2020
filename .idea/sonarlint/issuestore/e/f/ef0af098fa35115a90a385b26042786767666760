@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñð…Ýýÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(áÕ©8ØæëŽé.
+^
+java:S1117"<Rename "dateTime" which hides the field declared at line 21.(Ý¼–Ùùÿÿÿÿ8ØæëŽé.
