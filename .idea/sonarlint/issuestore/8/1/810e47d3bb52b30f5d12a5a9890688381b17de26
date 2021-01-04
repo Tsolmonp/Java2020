@@ -2,6 +2,6 @@
 n
 java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ô•¡”ûÿÿÿÿ8Š™¬Ù.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éäÚÊ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ßÏÚâüÿÿÿÿ
 L
 java:S1066	"/Merge this if statement with the enclosing one.(¨Æ»˜8Š™¬Ù.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ßÏÚâüÿÿÿÿ

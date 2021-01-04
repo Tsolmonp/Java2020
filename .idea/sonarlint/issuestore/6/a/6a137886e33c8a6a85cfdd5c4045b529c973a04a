@@ -1,22 +1,22 @@
 
-Z
-java:S1854"8Remove this useless assignment to local variable "dVar".(¸ùúÿÿÿÿ8ú®»¬å.
-Q
-java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8²ÿ«å.
-K
-java:S1481")Remove this unused "fVar" local variable.(òúœúÿÿÿÿ8áøßìæ.
 F
 java:S1481")Remove this unused "iVar" local variable.(•ªí8áøßìæ.
-R
-java:S1191"5Use classes from the Java API instead of Sun classes.(ÓÒÒÃ8²ÿ«å.
-Z
-java:S1854"8Remove this useless assignment to local variable "fVar".(òúœúÿÿÿÿ8áøßìæ.
-k
-java:S1128"NRemove this unused import 'com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput'.(ÓÒÒÃ8²ÿ«å.
+K
+java:S1481")Remove this unused "dVar" local variable.(¸ùúÿÿÿÿ8áøßìæ.
 U
 java:S1854"8Remove this useless assignment to local variable "iVar".(•ªí8‹ÄÒ¬å.
 K
-java:S1481")Remove this unused "dVar" local variable.(¸ùúÿÿÿÿ8áøßìæ.
+java:S1481")Remove this unused "fVar" local variable.(òúœúÿÿÿÿ8áøßìæ.
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.ls.LSOutput'.(Ò½¾Š8²ÿ«å.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š»±„
+Z
+java:S1854"8Remove this useless assignment to local variable "dVar".(¸ùúÿÿÿÿ8ú®»¬å.
 G
 java:S1128"%Remove this unused import 'Day01.p1'.(ù–Ô—ûÿÿÿÿ8ÆÏ©å.
+k
+java:S1128"NRemove this unused import 'com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput'.(ÓÒÒÃ8²ÿ«å.
+Z
+java:S1854"8Remove this useless assignment to local variable "fVar".(òúœúÿÿÿÿ8áøßìæ.
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(ÓÒÒÃ8²ÿ«å.

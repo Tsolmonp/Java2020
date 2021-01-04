@@ -1,10 +1,10 @@
-package Office_Hours.Practice_12_16;
+package Office_Hours.Practice_12_16_2020;
 
 import java.util.ArrayList;
 
-public class FacebookUser extends  SocialMedia{
+public class FacebookUser extends  SocialMedia {
 
-    /*
+     /*
     Facebook User:
 (*) Create a class for a facebook user which inherits the Social Media class and additional instance variables: username, password, full name, age, and number of friends
 (*) Encapsulate all the variables.
@@ -38,13 +38,13 @@ public class FacebookUser extends  SocialMedia{
     private int numberOfFriends;
     private ArrayList<Post> allPosts;
 
-    static  {
+    static {
         platform = "Facebook";
     }
 
     public FacebookUser(String username, String password) {
 
-        if(password.contains(username)) {
+        if (password.contains(username)) {
             System.out.println("Password contains username. Default password set: password");
             this.password = "password";
         } else {
@@ -58,21 +58,24 @@ public class FacebookUser extends  SocialMedia{
 
     }
 
-    public FacebookUser (String username, String password, String fullName) {
+    public FacebookUser(String username, String password, String fullName) {
         this(username, password);
 
         boolean isValidName = true;
 
-        for(int i=0; i < fullName.length(); i++) {
 
-            if(!Character.isLetter(fullName.charAt(i))) {
+        for (int i = 0; i < fullName.length(); i++) {
+
+            if (fullName.charAt(i) == ' ') continue;
+
+            if (!Character.isLetter(fullName.charAt(i))) {
                 isValidName = false;
                 break;
             }
 
         }
 
-        if(isValidName) {
+        if (isValidName) {
             this.fullName = fullName;
         } else {
             System.out.println("Invalid name");
@@ -84,13 +87,13 @@ public class FacebookUser extends  SocialMedia{
     public FacebookUser(String username, String password, String fullName, int age, int numberOfFriends) {
         this(username, password, fullName);
 
-        if(age < 0) {
+        if (age < 0) {
             System.out.println("Invalid age");
         } else {
             this.age = age;
         }
 
-        if(numberOfFriends < 0) {
+        if (numberOfFriends < 0) {
             System.out.println("Invalid number of friends");
         } else {
             this.numberOfFriends = numberOfFriends;
@@ -98,6 +101,21 @@ public class FacebookUser extends  SocialMedia{
 
     }
 
+    public boolean sendFriendRequest(FacebookUser otherUser) {
+        boolean valid = false;
+        if (this.numberOfFriends > 5000) {
+            System.out.println("You have reached the max number of friends");
+        } else if (otherUser.numberOfFriends > 5000) {
+            System.out.println(otherUser.fullName + " has reached the max number of friends");
+        } else {
+            System.out.println("Friend request sent to " + otherUser.fullName);
+            this.numberOfFriends++;
+            otherUser.numberOfFriends++;
+            valid = true;
+        }
+
+        return valid;
+    }
 
     public String getUsername() {
         return username;
@@ -139,26 +157,36 @@ public class FacebookUser extends  SocialMedia{
         this.numberOfFriends = numberOfFriends;
     }
 
+    public ArrayList<Post> getAllPosts() {
+        return allPosts;
+    }
+
+    public void setAllPosts(ArrayList<Post> allPosts) {
+        this.allPosts = allPosts;
+    }
+
     @Override
     public void directMessage(String username, String message) {
-
+        System.out.println(message + " was sent to: " + username);
     }
 
     @Override
     public void post(String body) {
-
+        allPosts.add(new Post(body));
     }
 
     @Override
-    public void notification(int time) {
+    public void notification(int time) {  // time will be 24 format
         //  8 am to 5 pm
-        if(time >= 8 && time <= 17 ) {
+        if (time >= 8 && time <= 17) {
             System.out.println("Notification");
         } else {
             System.out.println("Sleep mode");
+        }
+
 
     }
-}
+
     @Override
     public String toString() {
         return "FacebookUser{" +

@@ -1,7 +1,8 @@
-package Office_Hours.Practice_12_16;
+package Office_Hours.Practice_12_16_2020;
 
 public abstract class SocialMedia {
-     /*
+
+    /*
     Social Media
 (*) Create an abstract class for Social Media that has the following features:
 	- Direct messaging(String username, String message)
@@ -24,4 +25,3 @@ public abstract class SocialMedia {
     public abstract void notification(int time);
 
 }
-
